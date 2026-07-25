@@ -1,0 +1,11 @@
+# Külső függőségek (ezt adta hozzá a több ezer fájlt)
+node_modules/
+
+# NPM naplófájlok
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specifikus felesleges fájlok
+.DS_Store
+Thumbs.db
