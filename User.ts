@@ -26,9 +26,6 @@ export class User implements IIdentifiable {
     return this.email;
   }
 
-  /**
-   * Rendelés leadása: Ellenőrzi a készleten lévő termékeket a megadott Inventory-n keresztül.
-   */
   public placeOrder(orderId: string, productIds: string[], inventory: Inventory): Order | null {
     const availableProducts: Product[] = [];
 

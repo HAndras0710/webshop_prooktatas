@@ -21,10 +21,9 @@ export class Inventory {
   }
 
   public getAllProducts(): Product[] {
-    return [...this.products]; // Visszaadunk egy másolatot, véve az enkapszulációt
+    return [...this.products]; 
   }
 
-  // Segédmetódus a termék létezésének ellenőrzésére ID alapján
   public hasProduct(id: string): boolean {
     return this.products.some(product => product.getId() === id);
   }
